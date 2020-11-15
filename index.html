@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="content">
+        <div class="block file-loader">
+            <input type="file" id="file" onchange="readFile(this)">
+            <input type="button" value="reboot" id="reboot" onclick="location.reload()">
+        </div>
+        <div class="block path">
+            <canvas class="canvas" id="main_field" width="600" height="600">
+            </canvas>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
